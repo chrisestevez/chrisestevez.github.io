@@ -1,7 +1,7 @@
 ![Seattle](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/dataset-cover.jpg)
 
 
-The cross-industry standard process for data mining (CRISP-DM) is a six-step process.
+The cross-industry standard process for data mining (CRISP-DM) helps plan and organize a data project using a six-step process.
 
 CRISP-DM STEPS
 * Business Understanding
@@ -10,6 +10,8 @@ CRISP-DM STEPS
 * Modeling
 * Evaluation
 * Deployment
+
+In this post, we will apply the CRISP-DM methodology to the Seattle Airbnb open data set. We will use the following tools for the analysis and visualization python, pandas, sklearn, and seaborn.
 
 # Business Understanding
 
