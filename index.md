@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+
 The cross-industry standard process for data mining (CRISP-DM) is a six-step process.The cross-industry standard process for data mining (CRISP-DM) is a six-step process.
 
 CRISP-DM STEPS
@@ -52,6 +52,6 @@ We will be focusing on a subset of the calendar and listing data. The first step
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 
