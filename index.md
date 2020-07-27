@@ -1,4 +1,4 @@
-![Seattle](https://github.com/chrisestevez/chrisestevez.github.io/blob/master/imgs/dataset-cover.jpg)
+![Seattle](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/dataset-cover.jpg)
 
 
 The cross-industry standard process for data mining (CRISP-DM) is a six-step process.The cross-industry standard process for data mining (CRISP-DM) is a six-step process.
