@@ -1,7 +1,7 @@
 ![Seattle](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/dataset-cover.jpg)
 
 
-The cross-industry standard process for data mining (CRISP-DM) is a six-step process.The cross-industry standard process for data mining (CRISP-DM) is a six-step process.
+The cross-industry standard process for data mining (CRISP-DM) is a six-step process.
 
 CRISP-DM STEPS
 * Business Understanding
@@ -41,7 +41,7 @@ Kaggle provided the dataset and consist of three files calendar, listings, and r
 
 We will be focusing on a subset of the calendar and listing data. The first step will be to overview the dataset clean and later merge listing and calendar data.
 
-**Bold** and _Italic_ and `Code` text
+
 
 
 
