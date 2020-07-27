@@ -3,7 +3,7 @@
 
 The cross-industry standard process for data mining (CRISP-DM) helps plan and organize a data project using a six-step process.
 
-CRISP-DM STEPS
+**CRISP-DM STEPS**
 * Business Understanding
 * Data Understanding
 * Data Preparation
