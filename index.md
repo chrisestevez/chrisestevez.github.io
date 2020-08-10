@@ -102,7 +102,7 @@ The model identifies the entire home apartment, as the main feature driving the 
 Given the nature of the analysis, we will not be evaluating the model for performance and deployment. Ideally, one could build multiple models using different algorithms or optimize the existing model. The user will then compare the results provided and select the final model. The final model could be composed of one model or a combination of models. Additionally, the deployment phase would consist of integrating the model into an existing process or used to learn complex relations that exist within a dataset as per our example.
 
 # Conclusion
-In this post, we applied the CRISP-DM methodology to the Seattle Airbnb Open Data. We explored a subset of the data using exploratory data analytics in addition to machine learning. The supporting code can access via the link.
+In this post, we applied the CRISP-DM methodology to the Seattle Airbnb Open Data. We explored a subset of the data using exploratory data analytics in addition to machine learning. The supporting code can access via the [link](https://github.com/chrisestevez/Data-Scientist/blob/master/CRISP_DM/Project1/Write_A_Data_Science_Blog_Post.ipynb).
 
 
 
