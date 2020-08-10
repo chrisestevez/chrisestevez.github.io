@@ -70,10 +70,13 @@ To accurately answer the questions, the calendar and listing data needed to be c
 ### 1. Are there any changes in price listings from month to month in the Airbnb Seattle prices?
 
 Given the calendar listings, there appears to be price variation within the months. Prices in January are the lowest, and July is when the listing price is at the highest.
+img price range
 
 ### 2. Are there price differences in the types of properties?
 
-Property prices range from $10 to $1,650, with the median at $109. Properties categorized as shared roo private rooms have the lowest prices. The most popular rental is the entire home/apt.
+Property prices range from $10 to $1,650, with the median at $109. Properties categorized as shared room private rooms have the lowest prices. The most popular rental is the entire home/apt.
+
+
 
 ### 3. What neighborhood accounts for the most listings?
 
