@@ -75,7 +75,7 @@ Given the calendar listings, there appears to be price variation within the mont
 
 Property prices range from $10 to $1,650, with the median at $109. Properties categorized as shared roo private rooms have the lowest prices. The most popular rental is the entire home/apt.
 
-###3. What neighborhood accounts for the most listings?
+### 3. What neighborhood accounts for the most listings?
 
 The neighbourhood_group_cleansed least popular property had 3,394 listings, an average of 54,973, and a median of 33,148. Other neighborhoods account for the most listings in the dataset with 194,661 listings. The category is composed of many communities. The least popular is Interbay and Seward Park.
  
