@@ -70,24 +70,30 @@ To accurately answer the questions, the calendar and listing data needed to be c
 ### 1. Are there any changes in price listings from month to month in the Airbnb Seattle prices?
 
 Given the calendar listings, there appears to be price variation within the months. Prices in January are the lowest, and July is when the listing price is at the highest.
-img price range
+
+![price trends](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/price_trends.png)
 
 ### 2. Are there price differences in the types of properties?
 
 Property prices range from $10 to $1,650, with the median at $109. Properties categorized as shared room private rooms have the lowest prices. The most popular rental is the entire home/apt.
 
+![prices by property types](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/price_by_prop_type.png)
 
+![price by room type](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/price_by_room_type.png)
 
 ### 3. What neighborhood accounts for the most listings?
 
 The neighbourhood_group_cleansed least popular property had 3,394 listings, an average of 54,973, and a median of 33,148. Other neighborhoods account for the most listings in the dataset with 194,661 listings. The category is composed of many communities. The least popular is Interbay and Seward Park.
  
+![neighborhood listings](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/neighborhood_listings.png) 
 
 ### 4. Does the price vary by neighborhood?
 
 The average neighborhood price ranged from $90 to $198. The most expensive neighborhood was Magnolia, which was the third least popular in terms of listings.
 
-## Feature engineering
+![neighborhood price.png](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/neighborhood_price.png)
+
+### Feature engineering
 To answer the last question, we will fit a random forest model. The model will be an exploratory model to identify essential features. A total of 62 columns were created, and the steps taken to manipulate the data are the following:
 
 * One hot encode month_name, property_type, neighbourhood_group_cleansed, room_type, and accommodates
@@ -100,6 +106,8 @@ A random forest model is used to explore the final dataset. The model will use m
 
 ### 5. What features help predict listing price?
 The model identifies the entire home apartment, as the main feature driving the model. The accommodation was also a  driver. Additionally, having the listing in Queen Anne or Downtown is a driver of price listing.
+
+![model features](https://raw.githubusercontent.com/chrisestevez/chrisestevez.github.io/master/imgs/features.png)
 
 # Evaluation & Deployment
 Given the nature of the analysis, we will not be evaluating the model for performance and deployment. Ideally, one could build multiple models using different algorithms or optimize the existing model. The user will then compare the results provided and select the final model. The final model could be composed of one model or a combination of models. Additionally, the deployment phase would consist of integrating the model into an existing process or used to learn complex relations that exist within a dataset as per our example.
